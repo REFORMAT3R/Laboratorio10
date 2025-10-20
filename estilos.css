@@ -113,6 +113,33 @@ body {
     font-size: 0.9rem;
 }
 
+.lista-proyectos {
+    display: grid;
+    grid-template-columns: 1fr; /* 🔹 vertical */
+    gap: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ==== PORTAFOLIO ==== */
+.proyecto {
+    background-color: #f9fafb;
+    border-radius: 12px;
+    border:3px solid #cfe0ff;
+    padding: 2rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.proyecto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.proyecto h3 {
+    color: #000000;
+    margin-bottom: 0.8rem;
+}
 
 /* ==== RESPONSIVE ==== */
 @media (max-width: 992px) {
