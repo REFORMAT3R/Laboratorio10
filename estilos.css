@@ -91,11 +91,6 @@ body {
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s;
-}
-
-.item:hover {
-    transform: translateY(-5px);
 }
 
 .item h3 {
@@ -139,6 +134,71 @@ body {
 .proyecto h3 {
     color: #000000;
     margin-bottom: 0.8rem;
+}
+
+/* ==== FORMULARIO DE CONTACTO ==== */
+.contacto {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+}
+
+.formulario-contenedor {
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9fafb;
+    padding: 2.5rem 3rem;
+    border-radius: 15px;
+    border: 3px solid #cfe0ff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.formulario-contenedor h2 {
+    text-align: center;
+    color: #1d4ed8;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formulario label {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+}
+
+.formulario button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #2563eb;
 }
 
 /* ==== RESPONSIVE ==== */
